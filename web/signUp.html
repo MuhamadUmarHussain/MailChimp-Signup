@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Sign-Up-Here</title>
+</head>
+<body class="bg-green-300">
+
+    <main class="p-32 lg:p-36">
+        <section class="flex justify-center items-center">
+            <div class="main rounded-xl bg-blue-400 p-3 flex flex-col justify-center items-center gap-3 md:p-6 lg:p-12">
+                <div class="logo">
+                    <img class="h-20 w-20 rounded-xl " src="../Images/newsLetterLogo.png" alt="loading">
+                </div>
+                <div class="heading">
+                    <h1 class="text-xl lg:text-2xl font-serif italic font-semibold text-white">SignUp To NewsLetter</h1>
+                </div>
+                <div class="form">
+                    <form action="/" method="post" class="flex flex-col gap-3 lg:justify-center lg:items-center lg:gap-5">
+                        <input class="w-56 lg:w-64 h-7 rounded" type="text" name="first_name" placeholder="Enter Your First Name">
+                        <input class="w-56 lg:w-64 h-7 rounded" type="text" name="Last_name" placeholder="Enter Your Last Name">
+                        <input class="w-56 lg:w-64 h-7 rounded" type="email" name="Email" placeholder="Enter Your Email">
+                        <div class="checkbox"><input type="checkbox" name="Remember_Me" id="RM"> <label class="font-serif cursor-pointer lg:font-semibold" for="RM">Remember Me</label></div>
+                        <button class="w-fit px-6 rounded py-1 bg-red-400 hover:bg-red-300 italic text-lg font-serif " type="submit">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

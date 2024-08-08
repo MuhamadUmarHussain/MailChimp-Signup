@@ -1,0 +1,19 @@
+{
+  "name": "email-signup",
+  "version": "1.0.0",
+  "description": "Signup page to collect Emails using Malechimp API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx concurrently \"npx tailwindcss -i ./src/input.css -o ./web/output.css --watch\" \"nodemon server.js\""
+  },
+  "author": "Umar Hussain",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.8"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.2",
+    "express": "^4.19.2"
+  }
+}
